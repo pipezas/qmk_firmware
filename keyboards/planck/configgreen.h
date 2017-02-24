@@ -23,7 +23,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 /* USB Device descriptor parameter */
 #define VENDOR_ID       0xFEED
 #define PRODUCT_ID      0x6060
-#define MANUFACTURER    Povilas R
+#define MANUFACTURER    Povilas Rėklaitis
 #define PRODUCT         Planck green RGB
 #define DESCRIPTION     A compact ortholinear keyboard
 
@@ -32,8 +32,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define MATRIX_COLS 12
 
 /* Planck PCB default pin-out */
-#define MATRIX_ROW_PINS { D1, D0, D4, C6 }
-#define MATRIX_COL_PINS { B5, B4, E6, D7, B6, B2, B3, B1, F7, F6, F5, F4 }
+#define MATRIX_ROW_PINS { B6, B2, B3, B1 }
+#define MATRIX_COL_PINS { D1, D0, D4, C6, B5, B4, E6, D7, F7, F6, F5, F4 }
 #define UNUSED_PINS
 
 #define AUDIO_VOICES
