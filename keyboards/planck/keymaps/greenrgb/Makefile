@@ -1,3 +1,5 @@
+
+
 # Build Options
 #   change yes to no to disable
 #
@@ -7,7 +9,7 @@ EXTRAKEY_ENABLE ?= yes       # Audio control and System control(+450)
 CONSOLE_ENABLE ?= yes        # Console for debug(+400)
 COMMAND_ENABLE ?= yes        # Commands for debug and configuration
 KEYBOARD_LOCK_ENABLE ?= yes  # Allow locking of keyboard via magic key
-BACKLIGHT_ENABLE ?= no      # Enable keyboard backlight functionality
+BACKLIGHT_ENABLE ?= yes      # Enable keyboard backlight functionality
 RGBLIGHT_ENABLE ?= yes 		 # Enable WS2812 underglow RGB strip
 MIDI_ENABLE ?= no            # MIDI controls
 UNICODE_ENABLE ?= no         # Unicode
